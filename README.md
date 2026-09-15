@@ -2,7 +2,6 @@
 
 MedAudit AI is a high-performance clinical chart review and audit engine that automates evidence-based chart abstraction and compliance checks. It was built to solve the slow, manual, and error-prone process of clinical chart review by extracting structured clinical entities, validating diagnostic codes, detecting safety concerns from regulatory sources, and producing prioritized, citation-backed audit findings.
 
-Live demo: https://ai-meedical-audit-pw7qvxmq3m6rpxusstkzmd.streamlit.app/
 
 ---
 
@@ -97,17 +96,7 @@ streamlit run app.py
 
 ---
 
-## Deployment (Streamlit Cloud)
 
-1. Push repository to GitHub (main branch recommended).
-2. Create a new app on Streamlit Cloud: https://share.streamlit.io — select this repository, the `main` branch, and set the main file to `app.py`.
-3. Add secrets in Advanced settings → Secrets. Example TOML entry:
-
-```toml
-GROQ_API_KEY = "gsk_your_actual_groq_api_key_here"
-```
-
-4. Deploy. The app will be available at the Streamlit-provided URL.
 
 ---
 
@@ -125,6 +114,3 @@ Contributions, bug reports, and improvements are welcome. Please open issues or 
 
 ---
 
-## License
-
-Specify a license for your repository (e.g., MIT) by adding a `LICENSE` file.
